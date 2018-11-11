@@ -1,0 +1,65 @@
+[
+  {
+    "type": "text",
+    "name": "firstName",
+    "title": "First Name"
+  },
+  {
+    "type": "text",
+    "name": "lastName",
+    "title": "Last Name"
+  },
+  {
+    "type": "date",
+    "name": "dob",
+    "title": "Date of Birth"
+  },
+  {
+    "type": "select",
+    "name": "gender",
+    "title": "Gender",
+    "options": [
+      {
+        "value": "1",
+        "display": "Male"
+      },
+      {
+        "value": "2",
+        "display": "Female"
+      }
+    ]
+  },
+  {
+    "type": "multiple",
+    "name": "contact",
+    "title": "Contact Number",
+    "fieldType": "tel",
+    "contacts": [
+      {
+        "name": "home",
+        "display": "Home"
+      },
+      {
+        "name": "mobile",
+        "display": "Mobile"
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "name": "requireConsent",
+    "title": "Require Guardian Consent"
+  },
+  {
+    "type": "text",
+    "name": "guardianName",
+    "title": "Guardian Name",
+    "requiredIf": "requireConsent"
+  },
+  {
+    "type": "text",
+    "name": "guardianNumber",
+    "title": "Guardian Number",
+    "requiredIf": "requireConsent"
+  }
+]
