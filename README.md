@@ -1,3 +1,12 @@
+This is my partial solution for the take home test. My first commit was the scaffolding of the project using the node module create-react-app to generate a boilerplate of a react app. I spent about 3 or so hours creating the solution with reading and tutorials prior to the first commit and then committed my final part solution.
+
+My approach was to focus on the registration definition JSON and to create a generic form based on datatypes to determine the resulting HTML output. I put in a small amount of layout styling but not so much. I spent most of the time constructing the JSON file and thinking about how to loop through array values using the .map function using React and then dealing with the error message that was resolved with a unique key passed in. I did think that once I had output the form fields successfully using return statements in the switch construct that I would then replace that and try to create components and call them instead to tidy up the code but needed to do a bit more reading. I might try this outside these test conditions.
+
+Going forward I would need to think about how I would deal with the guardian details which would need to be hidden until the user selected the checkbox but still needed to be generated. I wasn't quite sure how this would play out at this point in time. I would also need to add validation to the form using refs and then to think about how to generate the next JSON based on data entered on submit.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
